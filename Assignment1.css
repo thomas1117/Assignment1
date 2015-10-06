@@ -24,7 +24,7 @@ h1 {
 
 #header ul a {
 	text-decoration: none;
-	color:black;
+	color:green;
 
 }
 
@@ -61,7 +61,7 @@ h1 {
 
 #content p{
 	background-color: white;
-	text-align: justify;
+	text-align: justify; 
 	border-radius: 10px;
 	padding: 15px;
 
