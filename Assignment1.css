@@ -19,7 +19,7 @@ h1 {
 #header ul {
 	list-style: none;
 	padding-top:8px;
-	
+	min-width: 1000px;
 }
 
 #header ul a {
