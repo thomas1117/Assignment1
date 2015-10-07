@@ -8,12 +8,11 @@ h1 {
 
 }
 #header {
-	background-color:#4c4646;
+	background-color:#D3D3D3;
 	width: auto;
 	height: 30px;
-	border-radius: 10px;
-
-	
+	border-radius: 7px;	
+	font-weight: bold;
 }
 
 #header ul {
@@ -24,19 +23,45 @@ h1 {
 
 #header ul a {
 	text-decoration: none;
-	color:green;
+	color:black;
 
 }
 
-#header ul li a:hover{
+#header a:hover{
 	color:white;
+}
+
+#header #subHead {
+    display: none;
+    background: #777;
+    width: 120px;
+    position: absolute;
+    min-width: 200px;
+    top: 22px;
+    left: -51px;
+}
+
+#header li:hover #subHead  {
+
+}
+
+#header li:hover #subHead{
+	display: block;
+}
+
+#header li:hover #subHead {
+	display: block;
+}
+#header #subHead li {
+	display:block;
+	width:120px;
 }
 
 #header li {
 	display: inline;
 	margin-right: 90px;
 	margin-left: 20px;
-	
+	position:relative;
 }
 
 #imageBanner img {
