@@ -5,6 +5,8 @@ h1 {
 	text-align: center;
 	color: black;
 	font-family: sans-serif;
+	position: relative;
+	
 
 }
 #header {
@@ -17,14 +19,13 @@ h1 {
 
 #header ul {
 	list-style: none;
-	padding-top:8px;
+	padding-top:7px;
 	min-width: 1000px;
 }
 
 #header ul a {
 	text-decoration: none;
 	color:black;
-
 }
 
 #header a:hover{
@@ -34,27 +35,24 @@ h1 {
 #header #subHead {
     display: none;
     background: #777;
-    width: 120px;
+    width: 100px;
     position: absolute;
-    min-width: 200px;
+    min-width: 100px;
     top: 22px;
     left: -51px;
 }
 
-#header li:hover #subHead  {
-
-}
 
 #header li:hover #subHead{
 	display: block;
 }
 
-#header li:hover #subHead {
-	display: block;
-}
 #header #subHead li {
 	display:block;
-	width:120px;
+	width:100px;
+	position: relative;
+	right: 9px;
+
 }
 
 #header li {
